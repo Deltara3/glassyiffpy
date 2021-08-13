@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'glassyiffpy',    
   packages = ['glassyiffpy'],   
-  version = '0.3',    
+  version = '0.4',    
   license='MIT',       
   description = 'Simple thingy to interact with yiff-party.com', 
   author = 'Glass-Paramedic',                   
