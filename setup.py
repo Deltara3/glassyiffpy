@@ -8,7 +8,7 @@ setup(
   author = 'Glass-Paramedic',                   
   author_email = 'glass-paramedic@weddit.online',    
   url = 'http://weddit.net',   
-  download_url = 'https://github.com/Glass-Paramedic/glassyiffpy/archive/refs/tags/v_03.tar.gz', 
+  download_url = 'https://github.com/Glass-Paramedic/glassyiffpy/archive/refs/tags/v_04.tar.gz', 
   keywords = ['yiff', 'furry', 'porn'],   
   install_requires=[     
           'requests',
