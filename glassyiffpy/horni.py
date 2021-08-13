@@ -111,14 +111,19 @@ def stream(cat="main"):
     url = "https://yiff-party.com/genre/feral/page/"
   else: 
     url = "https://yiff-party.com/"
-  base = []
+  base = getter(url)
+  del(base[0])
   while True:
     face = getter(url)
-    if face[0] in base:
+    if face == base:
       time.sleep(600)
     else: 
-      base = face
-      yield base[0]
+      for i in face:
+        if i in base:
+          yield i
+      base = face    
+        else:
+          pass  
       time.sleep(600)
 def yiff(num, cat="main"):
   try:
@@ -143,7 +148,7 @@ def yiff(num, cat="main"):
 
 def help():
   print("""Welcome to the horniest python package every written!
-This code is designed to help you interact with yiff-party.com without having to without having to write your own code. It can pull your chosen number of the latest images from any of the 6 categories. It can pull a random image from any category and it also provide's a live feature which allows you to iterate over subbmissions as they are uploaded to the website!
+This code is designed to help you interact with yiff-party.com without having to without having to write your own code. It can pull your chosen number of the latest images from any of the 6 categories. It can pull a random image from any category and it also provide's a live feature called 'stream' which allows you to iterate over subbmissions as they are uploaded to the website!
 
 
 Usage:
@@ -166,7 +171,7 @@ for image in horni.yiff(50,"anthro"):
 >this will return a list of 50 images in the anthro category
 
 
-for image in horni.live("main"):
+for image in horni.stream("main"):
   print(image)
 
 >This loop will run forever, printing out the images urls as they are uploaded to the site.
