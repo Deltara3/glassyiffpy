@@ -19,7 +19,7 @@ by [Glass-Paramedic](https://www.reddit.com/user/Glass-Paramedic)
 
 ```python
 
-horni.help() # prints a breif overview like this
+horni.help() # prints a brief overview like this
 
 from glassyifpy import horni
 print(horni.randomIMG())
