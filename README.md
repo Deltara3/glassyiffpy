@@ -22,6 +22,8 @@ by [Glass-Paramedic](https://www.reddit.com/user/Glass-Paramedic)
 horni.help() # prints a brief overview like this
 
 from glassyifpy import horni
+
+
 print(horni.randomIMG())
 # result will be a random image url
 
