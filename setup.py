@@ -7,7 +7,7 @@ setup(
   description = 'Simple thingy to interact with yiff-party.com', 
   author = 'Glass-Paramedic',                   
   author_email = 'glass-paramedic@weddit.online',    
-  url = 'weddit.net',   
+  url = 'http://weddit.net',   
   download_url = 'https://github.com/Glass-Paramedic/glassyiffpy/archive/refs/tags/v_01.tar.gz', 
   keywords = ['yiff', 'furry', 'porn'],   
   install_requires=[     
