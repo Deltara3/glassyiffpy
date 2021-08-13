@@ -2,14 +2,14 @@ from distutils.core import setup
 setup(
   name = 'glassyiffpy',    
   packages = ['glassyiffpy'],   
-  version = '0.4',    
+  version = '0.5',    
   license='MIT',       
   description = 'Simple thingy to interact with yiff-party.com', 
   author = 'Glass-Paramedic',                   
   author_email = 'glass-paramedic@weddit.online',    
   url = 'http://weddit.net',   
   download_url = 'https://github.com/Glass-Paramedic/glassyiffpy/archive/refs/tags/v_04.tar.gz', 
-  keywords = ['yiff', 'furry', 'porn'],   
+  keywords = ['yiff', 'furry', 'porn', 'gay', 'straight', 'lesbian'],   
   install_requires=[     
           'requests',
           'beautifulsoup4',
