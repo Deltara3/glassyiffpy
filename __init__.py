@@ -1,2 +1,2 @@
-from main.py import getter, pager
-from main.py import horni
+from glassyiffpy.main import getter, pager
+from glassyiffpy.main import horni
