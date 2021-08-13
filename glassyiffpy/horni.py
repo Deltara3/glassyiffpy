@@ -120,9 +120,9 @@ def stream(cat="main"):
     else: 
       for i in face:
         if i in base:
-          yield i   
+          pass 
         else:
-          pass
+          yield i 
       base = face    
       time.sleep(600)
 def yiff(num, cat="main"):
@@ -183,4 +183,13 @@ This code was originally written by Glass-Paramedic for qweter1006
 :)
 """)
 
+
+
+
+
+
+
+
+
+        
 
