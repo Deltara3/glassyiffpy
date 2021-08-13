@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'glassyiffpy',    
   packages = ['glassyiffpy'],   
-  version = '0.1',    
+  version = '0.3',    
   license='MIT',       
   description = 'Simple thingy to interact with yiff-party.com', 
   author = 'Glass-Paramedic',                   
   author_email = 'glass-paramedic@weddit.online',    
   url = 'http://weddit.net',   
-  download_url = 'https://github.com/Glass-Paramedic/glassyiffpy/archive/refs/tags/v_01.tar.gz', 
+  download_url = 'https://github.com/Glass-Paramedic/glassyiffpy/archive/refs/tags/v_03.tar.gz', 
   keywords = ['yiff', 'furry', 'porn'],   
   install_requires=[     
           'requests',
