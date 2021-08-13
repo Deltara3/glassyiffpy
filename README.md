@@ -18,10 +18,11 @@ by [Glass-Paramedic](https://www.reddit.com/user/Glass-Paramedic)
 
 
 ```python
+from glassyifpy import horni
+
+
 
 horni.help() # prints a brief overview like this
-
-from glassyifpy import horni
 
 
 print(horni.randomIMG())
