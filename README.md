@@ -1,5 +1,5 @@
 # glassyiffpy
-## _simple code for fetching yiff images from yiff-party_
+## _simple library for fetching yiff images from yiff-party_
 
 by [Glass-Paramedic](https://www.reddit.com/user/Glass-Paramedic)
 
